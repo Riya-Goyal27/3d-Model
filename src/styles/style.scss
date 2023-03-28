@@ -1,0 +1,40 @@
+$color1:#000;
+$color2:#fff;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden ;
+}
+
+.container{
+    height: 2500px;
+    width: 100%;
+}
+
+.mobile{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba($color1,0.5), rgba($color1,0.5)),url('./../assets/background.jpg');
+    background-size: cover;
+}
+
+.next{
+    background-color: $color1;
+    color: $color2;
+    font-family: sans-serif;
+    padding: 30px;
+    height: 100vh;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.heading{
+    margin: 20px;
+}
